@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f4f4f2;
+    padding: 20px;
+    border: solid 1px #70707090;
+    box-shadow: 10px 3px 5px grey;
+}
+
+header h1 {
+    color: #495464;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    /*background-color: #24272e;*/
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 100%;
+    background-color: #e8e8e8;
+}
+
+#container {
+    position: relative;
+    min-height: 100%;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+.puntuaciones {
+    margin: 20px auto;
+    border: 3px solid #495464;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: #495464;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.etiqueta {
+    background-color: #495464;
+    color: #e8e8e8;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#usuario-etiqueta {
+    position: absolute;
+    top: 30px;
+    left: -40px;
+}
+
+#computadora-etiqueta {
+    position: absolute;
+    top: 30px;
+    right: -20px;
+}
+
+.resultado {
+    font-size: 25px;
+    color: #495464;
+}
+
+.resultado p {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.WDL_text {
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.decisiones {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.decision {
+    display: inline-block;
+    margin: 0 20px;
+    border: 4px solid #495464;
+    border-radius: 50%;
+    padding: 10px;
+    transition: all 0.6s ease;
+}
+
+.decision:hover {
+    cursor: pointer;
+    background-color: #495464;
+}
+
+.decision>img {
+    height: 75px;
+    width: 75px;
+    padding: 10px;
+}
+
+.decision:hover>img {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
+#accion-mensaje {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #495464;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mensaje {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    background-color: #495464;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    margin-top: auto;
+    align-items: flex-end;
+    box-shadow: 1px -3px 5px #373b41;
+    border: solid 1px #70707090;
+
+}
+
+.me {
+    height: auto;
+    color: #e8e8e8;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 30px;
+    padding-left: 10px;
+
+}
+
+.me a {
+    color: inherit;
+    text-decoration: none;
+    transition: transform .6s;
+}
+
+.me a:hover {
+    font-weight: bold;
+    border-bottom: 1px solid #e2e2e2;
+    transform: scale(1.25);
+}
+
+.social {
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.social>a {
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px;
+}
+
+.social_img img {
+    height: 40px;
+    width: 40px;
+    transition: transform .3s;
+}
+
+.social_img img:hover {
+    transform: scale(1.25);
+}
+
+.brillo-ganador {
+    border: 4px solid rgb(0, 250, 0);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(0, 99, 12);
+}
+
+.brillo-perdedor {
+    border: 4px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(90, 0, 0);
+}
+
+.brillo-empate {
+    border: 4px solid rgb(255, 255, 0);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(172, 172, 25);
+}

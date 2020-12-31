@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Piedra, Papel y Tijeras, The Game</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="content-wrap">
+      <header>
+        <h1>Piedra, Papel, Tijeras</h1>
+        <p>1, 2, 3, YA!...</p>
+      </header>
+      <div>
+        <div class="puntuaciones">
+          <div id="usuario-etiqueta" class="etiqueta">Usuario</div>
+          <div id="computadora-etiqueta" class="etiqueta">PC</div>
+          <span id="puntos_usuario">0</span> : <span id="puntos_computadora">0</span>
+        </div>
+      </div>
+      <div class="resultado">
+        <p>Comencemos...</p>
+
+        <!-- Mensaje WDL -->
+        <div class="WDL_text">
+          <p>Aquí vamos</p>
+        </div>
+
+        <div class="decisiones">
+          <div class="decision" id="r">
+            <img src="images/rock.png" alt="Rock">
+          </div>
+          <div class="decision" id="p">
+            <img src="images/papel.png" alt="Paper">
+
+          </div>
+          <div class="decision" id="s">
+            <img src="images/scissors.png" alt="Scissors">
+
+          </div>
+        </div>
+        <p id="accion-mensaje">Escoge tu opción.</p>
+        <div class="mensaje">
+          <p id="nombreDelJugador"></p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <section class="me">
+        <p><small>made by</small> <a href="#" target="_blank">Jaervic B. Guevara</a></p>
+      </section>
+      <section class="social">
+        <a href="https://twitter.com/jaervic" target="_blank" class="social_img"><img
+            src="https://img.icons8.com/android/50/000000/twitter.png" /></a>
+        <a href="https://github.com/jaervic" target="_blank" class="social_img"><img
+            src="https://img.icons8.com/fluent/50/000000/github.png" /></a>
+      </section>
+    </footer>
+    <script src="index.js" async defer></script>
+</body>
+
+</html>
