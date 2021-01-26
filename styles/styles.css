@@ -99,6 +99,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 
 .decision {
@@ -195,7 +196,7 @@ footer {
     justify-content: space-between;
     width: 100%;
     height: 100px;
-    position: absolute;
+    position: relative;
     bottom: 0;
     margin-top: auto;
     align-items: flex-end;
@@ -205,6 +206,8 @@ footer {
 }
 
 .me {
+    display: flex;
+    justify-content: flex-start;
     height: auto;
     color: #e8e8e8;
     font-size: 20px;
@@ -212,12 +215,13 @@ footer {
     padding-bottom: 30px;
     padding-left: 10px;
 
+
 }
 
 .me a {
     color: inherit;
     text-decoration: none;
-    transition: transform .6s;
+    translate: transform .6s;
 }
 
 .me a:hover {
@@ -227,9 +231,9 @@ footer {
 }
 
 .social {
-    margin-bottom: 20px;
-    margin-right: 20px;
-
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
 }
 
 .social>a {
@@ -241,7 +245,7 @@ footer {
 .social_img img {
     height: 40px;
     width: 40px;
-    transition: transform .3s;
+    translate: transform .3s;
 }
 
 .social_img img:hover {
@@ -263,5 +267,5 @@ footer {
 .brillo-empate {
     border: 4px solid rgb(255, 255, 0);
     border-radius: 50%;
-    box-shadow: 0 0 10px rgb(172, 172, 25);
+    box-shadow: 0 0 10px rgb(148, 148, 9);
 }
