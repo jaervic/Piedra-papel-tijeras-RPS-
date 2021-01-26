@@ -32,7 +32,10 @@ body {
     height: 100vh;
     min-height: 100%;
     background-color: #e8e8e8;
-    overflow: hidden;
+}
+
+.example::-webkit-scrollbar {
+  display: none;
 }
 
 #container {
