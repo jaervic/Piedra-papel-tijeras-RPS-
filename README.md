@@ -1,6 +1,4 @@
-# FirstWebDevProject
-
-## https://jaervic.github.io/FirstWebDevProject/
+# ![FirstWebDevProject](https://jaervic.github.io/FirstWebDevProject/)
 
 Rock, Paper, Scissors game made with HTML5, CSS, and JS.
 
