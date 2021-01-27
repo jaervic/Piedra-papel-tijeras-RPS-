@@ -8,3 +8,6 @@ Styles were my idea.
 
 My next project will be giving it a dark mode. If you want to help me with it you're free to do it.
 
+##Preview
+
+![Preview Picture](https://github.com/jaervic/FirstWebDevProject/blob/main/images/preview%20ppt.png?raw=true)
