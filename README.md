@@ -1,4 +1,4 @@
-# [FirstWebDevProject](https://jaervic.github.io/FirstWebDevProject/)
+# [Piedra, papel, tijeras (RPS)](https://jaervic.github.io/FirstWebDevProject/)
 
 Rock, Paper, Scissors game made with HTML5, CSS, and JS.
 
