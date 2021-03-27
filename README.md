@@ -10,4 +10,4 @@ My next project will be giving it a dark mode. If you want to help me with it yo
 
 ## Preview
 
-![Preview Picture](https://github.com/jaervic/FirstWebDevProject/blob/main/images/preview%20ppt.png?raw=true)
+![Preview Picture](https://i.imgur.com/sHwAKsq.png)
