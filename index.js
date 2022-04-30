@@ -34,7 +34,7 @@ convertirAPalabra = (letter) => {
 
 //Nombres aleatorios
 function sinNombre() {
-    const NOMBRES = ["Sin nombre", "Un bobo ahí", "Canserbero", "Dumbledore", "PriNZheeZa VhEyA", "El feo de las nenas lindas", "Faraon Love Shady", "Wellington Quiw", "Lo más bello de la casa", "Ober de Petare, Odiosito", "Don Francisco", "Nathy Peluso", "Roque Valero", "Maria Corina Machado", "Kim Kardashian", "Ronaldinho", "Uno de los coreanos de BTS", "Porfi Baloa y sus adolescentes"]
+    const NOMBRES = ["Eduardo Rodriguez Giolitti" ,"Sin nombre", "Un bobo ahí", "Canserbero", "Dumbledore", "PriNZheeZa VhEyA", "El feo de las nenas lindas", "Faraon Love Shady", "Wellington Quiw", "Lo más bello de la casa", "Ober de Petare, Odiosito", "Don Francisco", "Nathy Peluso", "Roque Valero", "Maria Corina Machado", "Kim Kardashian", "Ronaldinho", "Uno de los coreanos de BTS", "Porfi Baloa y sus adolescentes"]
     const randomNumber = (Math.floor(Math.random() * NOMBRES.length))
     return NOMBRES[randomNumber];
 
@@ -49,7 +49,7 @@ function nombre(nombreDelJugador) {
 
 // Funcion para los mensajes cuando el usuario gana
 function mensajeGanador() {
-    const MENSAJES_GANADORES = ["Felicitaciones", "Wow", "Sos un mostro, pibe", "Maquina, Bestia, Campeón, Gladiador, Guerrer...", "Eres increible", "Le pones corazón a la cosa", "Estas pasado mi bro *puñito*", "Sigue así", "La andas rompiendo", "Hermoso!", "Aparte de ganador, guap@", "Tú puedes", "Repámpanos", "Esto es para celebrarlo, ven aca *abracito*", "Wow, no, de verdad, yo... sin palabras", "Y si salimos a comer un día?", "Oh sí dame más puntos", "*Se queda estupefacto*", "Quedé cocotimbo contigo OMG", "Increible ser humano eres, estoy seguro que si", "No me impresiona que alguien tan bell@ como tú me gane :3 ", "Te mereces lo mejor y más *guiño guiño*", "Tus amigos deben estar orgullosos de ti, te tqm xoxo", "Demonios viejo!!", "Eres increible pero por el AMOR DE DIOS", "This [Inserte su género aquí] is on fireeee", "Dicen que la belleza está en el interior pero te veo y uff... sí, te estoy viendo, no ves las noticias?"]
+    const MENSAJES_GANADORES = ["Felicitaciones", "Wow", "Sos un mostro, pibe", "Maquina, Bestia, Campeón, Gladiador, Guerrerx...", "Eres increible", "Le pones corazón a la cosa", "Estas pasado mi bro *puñito*", "Sigue así", "La andas rompiendo", "Hermos@!", "Aparte de ganador, guap@", "Tú puedes", "Repámpanos", "Esto es para celebrarlo, ven aca *abracito*", "Wow, no, de verdad, yo... sin palabras", "Y si salimos a comer un día? 😉😉", "Oh sí dame más puntos 😩😩😩", "*Se queda estupefacto*", "Quedé cocotimbo contigo OMG", "Increible ser humano eres, estoy seguro que si", "No me impresiona que alguien tan bell@ como tú me gane 😍😘🥰 ", "Te mereces lo mejor y más *guiño guiño*", "Tus amigos deben estar orgullosos de ti, te tqm xoxo ♥", "Maldita sea te quiero!!", "Eres increible pero por el AMOR DE DIOS", "This [Inserte su género aquí] is on fireeee", "Dicen que la belleza está en el interior pero te veo y uff... sí, te estoy viendo, muakata por esas nalgas 💋"]
     const randomNumber = Math.floor(Math.random() * MENSAJES_GANADORES.length)
 
     return MENSAJES_GANADORES[randomNumber] + "!";
